@@ -8,7 +8,7 @@
 
  Oct 22 2025
 
-![Running Game](https://github.com/KBB774/GameDevPortfolio/blob/main/images/SpaceGame01.png?raw=true)
+![Running Game](https://github.com/KBB774/GameDevPortfolio/blob/main/images/Spaceship011.png?raw=true)
 
 * [Windows](https://github.com/KBB774/GameDevPortfolio/blob/main/src/SpaceGame/windows-amd64.zip)
 * [MacOS](https://github.com/KBB774/GameDevPortfolio/blob/main/src/SpaceGame/macos-x86_64.zip)
