@@ -2,7 +2,7 @@ class PowerUp {
   // Member Variables
   int x, y, w, diam, speed;
   char type;
-  //PImage rock1;
+  PImage rock1;
   color c1;
 
   // Constructor
@@ -12,12 +12,14 @@ class PowerUp {
     diam = 100;
     speed = int(random(1, 5));
 
-    if (random(10)>7) {
-      //rock1 = loadImage("ammo.png");
+    if (random(10)>5) {
+      rock1 = loadImage("Ammo.png");
+      rock1.resize (diam,diam);
       type = 'a'; //THIS IS AMMO
       c1 = color(255, 0, 0);
-    } else if (random(10)>5.0) {
-      h = loadImage("Health.png");
+    } else {
+      rock1 = loadImage("Health.png");
+            rock1.resize (diam,diam);
       type = 'h'; //THIS IS HEALTH
     }
     
@@ -26,8 +28,7 @@ class PowerUp {
   // Member Methods
   void display() {
   imageMode(CENTER);
-    h.resize(diam, diam);
-    image(h, x, y);
+    image(rock1, x, y);
     
   }
 
