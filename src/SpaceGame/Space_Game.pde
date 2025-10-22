@@ -152,6 +152,7 @@ void mousePressed() {
   if (ship.fire()) {
     lasers.add(new Laser(ship.x, ship.y));
     ship.laserCount--;
+    ship.shotsFired++;
   }
   if (laserSound.isPlaying()) {
     laserSound.play();
@@ -173,7 +174,7 @@ void infoPanel() {
   fill(57, 255, 20);
   textSize(45);
   text("Score: " + score, 30, height-300, width+1);
-
+text("Shots Fired: " + ship.shotsFired, 30, height-400, width+1);
   text("HEALTH: " + ship.health, 30, height-250, width+55);
   text("AMMO: " + ship.laserCount, 30, height-200, width+55);
 }
