@@ -8,7 +8,7 @@ class Spaceship {
     x = width/2;
     y = height/2;
     w = 100;
-    laserCount = 500;
+    laserCount = 100;
     turretCount = 1;
     health = 100;
     ship = loadImage("Spaceship-1.png");
