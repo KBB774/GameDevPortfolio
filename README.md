@@ -4,7 +4,7 @@
 
 ### Space Game
 
- ***Lose yourself in the void—but don’t lose your ship. Your mission: survive as long as possible, rack up points, and become the ultimate space pilot. But beware—once your health hits zero, it’s game over.***
+ ***Lose yourself in the void—but don’t ### DIE. Your mission: survive as long as possible, rack up points, and become the ultimate ship operator. But beware—once your health strikes zero, it’s game over.***
 
  Oct 22 2025
 
