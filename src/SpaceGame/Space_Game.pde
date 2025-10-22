@@ -7,6 +7,9 @@ ArrayList<PowerUp> powups = new ArrayList<PowerUp>();
 
 
 import processing.sound.*;
+import ddf.minim.*;
+Minim minim;
+AudioPlayer bgMusic;
 Timer rockTimer, puTimer;
 int score, rocksPassed, health;
 SoundFile laserSound;
@@ -16,12 +19,15 @@ PFont font;
 
 void setup () {
   size(1920, 1080);
-  font = createFont("Times New Roman", 30); // Change "Arial" to any available system font
+  font = createFont("Times New Roman", 30);
   textFont(font);
   // fullScreen();
   {
   }
   background(20);
+  minim = new Minim(this);
+   bgMusic = minim.loadFile("fast-glitchy-edm-282231.mp3");
+   bgMusic.loop();
   ship = new Spaceship();
   rockTimer = new Timer(800);
   rockTimer.start();
@@ -33,6 +39,7 @@ void setup () {
   start = loadImage("SpaceStart-1.png");
   lose = loadImage("Untitled-1.png");
   h = loadImage("Health.png");
+  a = loadImage("Ammo.png");
   loadImage("laser.png");
   laserSound = new SoundFile(this, "laser-104024.wav");
   play = false;
@@ -166,9 +173,9 @@ void infoPanel() {
   fill(57, 255, 20);
   textSize(45);
   text("Score: " + score, 30, height-300, width+1);
-  text("Rocks Passed: " + rocksPassed, 30, height-250, width+25);
-  text("HEALTH: " + ship.health, 30, height-200, width+55);
-  text("AMMO: " + ship.laserCount, 30, height-150, width+55);
+
+  text("HEALTH: " + ship.health, 30, height-250, width+55);
+  text("AMMO: " + ship.laserCount, 30, height-200, width+55);
 }
 
 void startScreen() {
@@ -184,4 +191,10 @@ void gameOver() {
   fill(255, 0, 0);
   text("Score: " + score, width-1080, height-200);
   noLoop();
+}
+
+void stop() {
+  bgMusic.close();
+  minim.stop();
+  super.stop();
 }
