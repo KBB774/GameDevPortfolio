@@ -1,6 +1,6 @@
 class Spaceship {
   // Member Variables
-  int x, y, w, health, laserCount, turretCount;
+  int x, y, w, health, laserCount, turretCount, shotsFired;
   PImage ship;
 
   // Constructor
@@ -9,6 +9,7 @@ class Spaceship {
     y = height/2;
     w = 100;
     laserCount = 100;
+    shotsFired = 0;
     turretCount = 1;
     health = 100;
     ship = loadImage("Spaceship-1.png");
