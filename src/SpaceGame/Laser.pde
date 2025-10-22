@@ -35,7 +35,7 @@ class Laser {
 
   boolean intersect(Rock r) {
     float d = dist(x, y, r.x, r.y);
-    if (d<30) {
+    if (d<45) {
       return true;
     } else {
       return false;
