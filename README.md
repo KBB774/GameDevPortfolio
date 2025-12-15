@@ -19,4 +19,4 @@
 
 ### Velocikart Racing
 
-*** Velocikart Racing is a top-down 2D racing game built in Processing where players race against the clock to complete multiple laps on a large racetrack. Using smooth rotation-based controls, players must stay on the track to maintain speed, avoid obstacles, and use power-ups strategically. The game features lap tracking, a timer system, pause functionality, and sound effects for an immersive racing experience.
+***Velocikart Racing is a top-down 2D racing game built in Processing where players race against the clock to complete multiple laps on a large racetrack. Using smooth rotation-based controls, players must stay on the track to maintain speed, avoid obstacles, and use power-ups strategically. The game features lap tracking, a timer system, pause functionality, and sound effects for an immersive racing experience.***
