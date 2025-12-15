@@ -20,3 +20,7 @@
 ### Velocikart Racing
 
 ***Velocikart Racing is a top-down 2D racing game built in Processing where players use smooth steering and speed control to complete laps as fast as possible while staying on the track!***
+
+Dec 19 2025
+
+![Running Game](https://github.com/KBB774/GameDevPortfolio/blob/main/images/GamePhoto.png?raw=true)
