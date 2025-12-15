@@ -1,6 +1,6 @@
 # Kellen Brim's Game Dev Portfolio 2026
 # Contact Info: ***kellenbrim@gmail.com***
-## Certificate in Gaming Development Fundementals 1
+## *Certificate in Gaming Development Fundementals 1*
 
 ## Projects for Term 1
 
