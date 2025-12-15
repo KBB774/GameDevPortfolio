@@ -1,4 +1,5 @@
 # Kellen Brim's Game Dev Portfolio 2026
+# Contact Info: (kellenbrim@gmail.com)
 
 ## Projects for Term 1
 
