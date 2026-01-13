@@ -13,6 +13,8 @@
 
 You are placed into a gladiator style arena and you have to defeat waves of enemies that range in difficulty to reach the door at the end and finish the waves
 
+[Mockup Image 1](https://github.com/KBB774/GameDevPortfolio/blob/main/images/Fated_Door_Draft_1.png?raw=true)
+
 ## Projects for Term 1
 
 ### Space Game
