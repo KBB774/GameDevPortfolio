@@ -3,6 +3,12 @@
 ## *Certificate in Gaming Development Fundementals 1*
 * [Certificate Link](https://github.com/KBB774/GameDevPortfolio/blob/main/images/Kellen%20Brim_Game%20Development%20Fundamentals%201_12152025.pdf)
 
+# Current Project
+
+### GLADIADOOR
+
+A fast paced arena fighter where all you have to do... **Is reach the Fated Door**
+
 ## Projects for Term 1
 
 ### Space Game
