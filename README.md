@@ -7,7 +7,7 @@
 
 ### GLADIADOOR
 
-***A fast paced arena fighter where all you have to do...**
+**A fast paced arena fighter where all you have to do...**
 
 ***Is reach the Fated Door***
 
