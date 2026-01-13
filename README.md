@@ -7,7 +7,9 @@
 
 ### GLADIADOOR
 
-A fast paced arena fighter where all you have to do... **Is reach the Fated Door**
+***A fast paced arena fighter where all you have to do...**
+
+***Is reach the Fated Door***
 
 You are placed into a gladiator style arena and you have to defeat waves of enemies that range in difficulty to reach the door at the end and finish the waves
 
