@@ -7,7 +7,7 @@
 
 ### GLADIADOOR
 
-* [GLADIADOOR Link](https://github.com/KBB774/GLADIADOOR/tree/main)
+* [GLADIADOOR Github](https://github.com/KBB774/GLADIADOOR/tree/main)
 
 **A fast paced arena fighter where all you have to do...**
 
