@@ -22,7 +22,7 @@ You are placed into a gladiator style arena where you
 ![Mockup Image 1](https://github.com/KBB774/GameDevPortfolio/blob/main/images/Fated_Door_Draft_2.gif?raw=true)
 
 
-## Projects for Term 1
+## Project for Term 1
 
 ### Space Game
 
@@ -37,7 +37,7 @@ You are placed into a gladiator style arena where you
 * [Source Code](https://github.com/KBB774/GameDevPortfolio/tree/main/src/SpaceGame)
 
 
-## Projects for Term 2
+## Project for Term 2
 
 ### Velocikart Racing
 
